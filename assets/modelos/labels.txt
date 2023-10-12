@@ -1,0 +1,7 @@
+0 Led
+1 Capacitor
+2 Transistor
+3 Resistor
+4 Jumper/Cabo
+5 Relé
+6 Diodo
