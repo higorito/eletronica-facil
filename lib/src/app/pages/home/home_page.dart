@@ -4,7 +4,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
-  final Uri _url = Uri.parse('https://pt.wikipedia.org/wiki/');
+  final Uri _url = Uri.parse(
+      'https://pt.wikipedia.org/wiki/Categoria:Componentes_eletrônicos');
 
   Future<void> _launchUrl() async {
     if (!await launchUrl(_url)) {

@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomePage(),
+          builder: (context) => HomePage(),
         ),
       );
     });
@@ -41,7 +41,11 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Image.asset('assets/imgs/chipGif.gif', height: 150, width: 150),
+            Image.asset(
+              'assets/imgs/visao-de-maquina.png',
+              height: 150,
+              width: 150,
+            ),
           ],
         ),
       ),

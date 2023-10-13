@@ -65,11 +65,11 @@ dev_dependencies:
 flutter_native_splash:
   color: "#4CAEE3"
   icon_background_color:  "#add8e6"
-  image: "assets/imgs/chipGif.gif"
+  image: "assets/imgs/visao-de-maquina.png"
   android: true
   android_12:
-    image: "assets/imgs/chipGif.gif"
-    icon_background_color:  "#add8e6 "
+    image: "assets/imgs/visao-de-maquina.png"
+    icon_background_color:  "#ffffff" 
     icon_background_color_dark: "#add8e6 "
 
 flutter_launcher_icons:
