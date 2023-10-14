@@ -1,16 +1,10 @@
 # eletronica_facil
 
-A new Flutter project.
+Este projeto foi desenvolvido para testar a integração do Flutter com o TensorFlow Lite. O aplicativo é capaz de reconhecer imagens de componentes eletrônicos e futuramente será capaz de reconhecer esquemáticos de circuitos eletrônicos. Baixe o aplicativo e teste você mesmo! Ele está disponível para Android na pasta **`apk`**. Caso queira adicionar outro modelo basta clonar o repositório e colocar os arquivos `.tflite` e `.txt` na pasta `assets/modelos`, mantenha o nome dos arquivos como `model.tflite` e `labels.txt` respectivamente.
 
-## Getting Started
+Veja algumas imagens do aplicativo:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|        |        |
+|--------|--------|
+| ![alt text](imagens/1.png) | ![alt text](imagens/2.png) |
+| ![alt text](imagens/3.png) | ![alt text](imagens/4.png) |
